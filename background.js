@@ -19,7 +19,6 @@ function readPopup() {
       printWindow.document.close();
       printWindow.print();
     
-    
 }
 
 chrome.action.onClicked.addListener((tab) => {
