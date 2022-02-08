@@ -1,17 +1,14 @@
 {
-"manifest_version": 2,     //required
-"version": "1.0",               //required
-"name": "Hello World!",   //required
-"description": "Learning how to make a chrome extension!",
-"icons": {
-    	"16": "images/puppy16.png",
-    	"48": "images/puppy48.png",
-    	"128": "images/puppy.png"
-    },
-"browser_action":
-	{
-	"default_icon": "images/puppy.png",
-    "default_popup": "popup.html"
+	"name": "Print Modal",
+	"action": {},
+	"manifest_version": 3,
+	"version": "0.2",
+	"description": "Prints the content of Modal/Popup of Pakistan Law Site.\nAll you have to do is to click on the article you want to print and then click on the extension Icon.\nDeveloped by Noman Shah\nContact:\nnomanalishah9876@gmail.com\n+923081601400",
+	"permissions": [
+		"activeTab",
+		"scripting"
+	],
+	"background": {
+		"service_worker": "background.js"
 	}
 }
-
